@@ -5,3 +5,6 @@ scikit-learn
 plotly
 wandb
 streamlit
+matplotlib
+seaborn
+jupyterlab

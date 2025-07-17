@@ -1,0 +1,39 @@
+// For format details, see https://aka.ms/devcontainer.json
+{
+	"name": "Python ML (CUDA)",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile"
+	},
+
+	// runArgs: Konteyneri başlatırken eklenecek Docker komut satırı argümanları.
+	// "--gpus=all" argümanı, NVIDIA GPU'larınızın konteyner tarafından erişilebilir olmasını sağlar.
+	"runArgs": [
+		"--gpus=all"
+	],
+
+	// forwardPorts: Konteyner içindeki portları yerel makinenize yönlendirir.
+	// 8501, Streamlit'in varsayılan portudur. Bu sayede tarayıcınızdan http://localhost:8501 adresine gidebilirsiniz.
+	"forwardPorts": [
+		8501
+	],
+
+	// customizations: Konteynere özel VS Code ayarları.
+	"customizations": {
+		"vscode": {
+			// extensions: Belirtilen VS Code eklentilerinin konteyner içinde de otomatik olarak kurulmasını sağlar.
+			// Bu, Python için kod tamamlama, linting ve hata ayıklama gibi özellikler sunar.
+			"extensions": [
+				"ms-python.python"
+			]
+		}
+	}
+
+	// postCreateCommand: Konteyner ilk defa oluşturulduktan sonra çalıştırılacak komut.
+	// Bağımlılıkları burada kurmak, Dockerfile'ı değiştirmeden requirements.txt'yi güncellediğinizde
+	// sadece konteyneri yeniden oluşturarak (rebuild) bağımlılıkları güncellemenizi sağlar.
+	// "postCreateCommand": "pip3 install --no-cache-dir -r requirements.txt",
+
+	// remoteUser: Konteynere root yerine başka bir kullanıcı ile bağlanmak için. Şimdilik gerek yok.
+	// "remoteUser": "vscode"
+}
