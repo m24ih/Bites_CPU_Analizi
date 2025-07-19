@@ -11,7 +11,7 @@ def process_all_files_for_average_load():
     # --- Ayarlar ---
     DATA_PATH = 'data'
     # 1'den 20'ye kadar olan tüm dosyaları okuyacak şekilde ayarlandı.
-    FILES_TO_READ = [f"vm_cpu_readings-file-{i}-of-195.csv.gz" for i in range(1, 21)]
+    FILES_TO_READ = [f"vm_cpu_readings-file-{i}-of-195.csv.gz" for i in range(1, 196)]
     COLUMN_NAMES = ['timestamp', 'vmId', 'min_cpu', 'max_cpu', 'avg_cpu']
     CHUNK_SIZE = 1_000_000  # Belleği zorlamamak için her seferinde okunacak satır sayısı
     OUTPUT_CSV_PATH = 'genel_sunucu_yuku.csv'
