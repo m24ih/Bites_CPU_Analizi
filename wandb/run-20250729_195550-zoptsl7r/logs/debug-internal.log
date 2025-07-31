@@ -1,0 +1,13 @@
+{"time":"2025-07-29T19:55:50.702360136+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-29T19:55:51.087924466+03:00","level":"INFO","msg":"stream: created new stream","id":"zoptsl7r"}
+{"time":"2025-07-29T19:55:51.087950785+03:00","level":"INFO","msg":"stream: started","id":"zoptsl7r"}
+{"time":"2025-07-29T19:55:51.087971995+03:00","level":"INFO","msg":"handler: started","stream_id":"zoptsl7r"}
+{"time":"2025-07-29T19:55:51.087981282+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"zoptsl7r"}
+{"time":"2025-07-29T19:55:51.087981262+03:00","level":"INFO","msg":"sender: started","stream_id":"zoptsl7r"}
+{"time":"2025-07-29T20:00:20.470732398+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-29T20:00:20.538397702+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.06757791}],"total_operations":1}}
+{"time":"2025-07-29T20:00:20.807610264+03:00","level":"INFO","msg":"stream: closing","id":"zoptsl7r"}
+{"time":"2025-07-29T20:00:20.807620814+03:00","level":"INFO","msg":"handler: closed","stream_id":"zoptsl7r"}
+{"time":"2025-07-29T20:00:20.807631213+03:00","level":"INFO","msg":"sender: closed","stream_id":"zoptsl7r"}
+{"time":"2025-07-29T20:00:20.807627466+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zoptsl7r"}
+{"time":"2025-07-29T20:00:20.807667872+03:00","level":"INFO","msg":"stream: closed","id":"zoptsl7r"}

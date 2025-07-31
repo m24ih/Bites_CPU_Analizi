@@ -1,0 +1,7 @@
+{"time":"2025-07-31T00:51:23.995373034+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T00:51:24.555789017+03:00","level":"INFO","msg":"stream: created new stream","id":"6o9e0t55"}
+{"time":"2025-07-31T00:51:24.555835835+03:00","level":"INFO","msg":"stream: started","id":"6o9e0t55"}
+{"time":"2025-07-31T00:51:24.555855512+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"6o9e0t55"}
+{"time":"2025-07-31T00:51:24.555877433+03:00","level":"INFO","msg":"handler: started","stream_id":"6o9e0t55"}
+{"time":"2025-07-31T00:51:24.555855642+03:00","level":"INFO","msg":"sender: started","stream_id":"6o9e0t55"}
+{"time":"2025-07-31T00:51:31.020206486+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model_path/lstm_LSTM_h50_l1.pt","runtime_seconds":0.158040008,"progress":"46.0KB/46.0KB"}],"total_operations":1}}

@@ -1,0 +1,54 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            lfk55nyh9bx81qnv6lddimhddnvyz3sp:
+                codePath: 2.1_LSTM_Wandb.ipynb
+                codePathLocal: 2.1_LSTM_Wandb.ipynb
+                email: melihak635442@gmail.com
+                executable: /home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/bin/python
+                git:
+                    commit: ebea5488bf0aeb4d8d97a4896ffd27621333b6f9
+                    remote: git@github.com:m24ih/Bites_CPU_Analizi.git
+                host: CachyOS
+                os: Linux-6.15.7-3-cachyos-x86_64-with-glibc2.41
+                program: /home/melih/Documents/Bites_CPU_Analizi/2.1_LSTM_Wandb.ipynb
+                python: CPython 3.13.5
+                root: /home/melih/Documents/Bites_CPU_Analizi
+                startedAt: "2025-07-30T22:25:08.366989Z"
+                writerId: lfk55nyh9bx81qnv6lddimhddnvyz3sp
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+                - 105
+            "2":
+                - 1
+                - 5
+                - 53
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.13.5
+            "5": 0.21.0
+            "8":
+                - 1
+            "12": 0.21.0
+            "13": linux-x86_64
+batch_size:
+    value: 64
+dropout:
+    value: 0.1
+epochs:
+    value: 20
+hidden_dim:
+    value: 50
+lr:
+    value: 0.001
+num_layers:
+    value: 1

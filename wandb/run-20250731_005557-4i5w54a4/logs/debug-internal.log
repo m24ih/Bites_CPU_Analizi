@@ -1,0 +1,13 @@
+{"time":"2025-07-31T00:55:57.567226834+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T00:55:58.095759541+03:00","level":"INFO","msg":"stream: created new stream","id":"4i5w54a4"}
+{"time":"2025-07-31T00:55:58.095788315+03:00","level":"INFO","msg":"stream: started","id":"4i5w54a4"}
+{"time":"2025-07-31T00:55:58.095798033+03:00","level":"INFO","msg":"sender: started","stream_id":"4i5w54a4"}
+{"time":"2025-07-31T00:55:58.095795869+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"4i5w54a4"}
+{"time":"2025-07-31T00:55:58.095819213+03:00","level":"INFO","msg":"handler: started","stream_id":"4i5w54a4"}
+{"time":"2025-07-31T00:56:04.985388233+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.712727757,"progress":"18.9KB/18.9KB"},{"desc":"uploading model_path/lstm_LSTM_h50_l1.pt","runtime_seconds":0.183225759,"progress":"46.0KB/46.0KB"}],"total_operations":2}}
+{"time":"2025-07-31T00:56:05.410083841+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T00:56:06.713452141+03:00","level":"INFO","msg":"stream: closing","id":"4i5w54a4"}
+{"time":"2025-07-31T00:56:06.713471697+03:00","level":"INFO","msg":"handler: closed","stream_id":"4i5w54a4"}
+{"time":"2025-07-31T00:56:06.713482638+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4i5w54a4"}
+{"time":"2025-07-31T00:56:06.713492577+03:00","level":"INFO","msg":"sender: closed","stream_id":"4i5w54a4"}
+{"time":"2025-07-31T00:56:06.713568108+03:00","level":"INFO","msg":"stream: closed","id":"4i5w54a4"}

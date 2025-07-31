@@ -1,0 +1,16 @@
+{"time":"2025-07-30T20:27:15.875860146+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-30T20:27:16.413264149+03:00","level":"INFO","msg":"stream: created new stream","id":"km39uarm"}
+{"time":"2025-07-30T20:27:16.413445671+03:00","level":"INFO","msg":"stream: started","id":"km39uarm"}
+{"time":"2025-07-30T20:27:16.413491337+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"km39uarm"}
+{"time":"2025-07-30T20:27:16.413556921+03:00","level":"INFO","msg":"sender: started","stream_id":"km39uarm"}
+{"time":"2025-07-30T20:27:16.413554507+03:00","level":"INFO","msg":"handler: started","stream_id":"km39uarm"}
+{"time":"2025-07-30T20:27:21.104922212+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading transformer_model.pt","runtime_seconds":0.72160022,"progress":"640.0KB/9.2MB"},{"desc":"uploading output.log","runtime_seconds":0.721590311,"progress":"1.5KB/1.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.721588559,"progress":"131.6KB/131.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.488020754,"progress":"2.1KB/2.1KB"}],"total_operations":4}}
+{"time":"2025-07-30T20:28:21.169870965+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-14, summary, console lines 0-14","runtime_seconds":48.998745935},{"desc":"uploading transformer_model.pt","runtime_seconds":40.168510113,"progress":"6.2MB/9.2MB"}],"total_operations":2}}
+{"time":"2025-07-30T20:28:36.690086368+03:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/melihak635442-bites/transformer-experiments/km39uarm/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-07-30T20:28:54.408524011+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/melihak635442-bites/transformer-experiments/km39uarm/file_stream\": unexpected EOF"}
+{"time":"2025-07-30T20:28:54.442028284+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-30T20:29:13.349750216+03:00","level":"INFO","msg":"stream: closing","id":"km39uarm"}
+{"time":"2025-07-30T20:29:13.349765615+03:00","level":"INFO","msg":"handler: closed","stream_id":"km39uarm"}
+{"time":"2025-07-30T20:29:13.349778739+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"km39uarm"}
+{"time":"2025-07-30T20:29:13.349793086+03:00","level":"INFO","msg":"sender: closed","stream_id":"km39uarm"}
+{"time":"2025-07-30T20:29:13.349844113+03:00","level":"INFO","msg":"stream: closed","id":"km39uarm"}

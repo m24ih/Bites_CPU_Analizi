@@ -1,0 +1,13 @@
+{"time":"2025-07-31T00:10:03.889578458+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T00:10:04.389902525+03:00","level":"INFO","msg":"stream: created new stream","id":"64vi7gva"}
+{"time":"2025-07-31T00:10:04.389951439+03:00","level":"INFO","msg":"stream: started","id":"64vi7gva"}
+{"time":"2025-07-31T00:10:04.389965496+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"64vi7gva"}
+{"time":"2025-07-31T00:10:04.389991657+03:00","level":"INFO","msg":"handler: started","stream_id":"64vi7gva"}
+{"time":"2025-07-31T00:10:04.389977069+03:00","level":"INFO","msg":"sender: started","stream_id":"64vi7gva"}
+{"time":"2025-07-31T00:10:10.922755209+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading lstm_hardy-sea-2.pt","runtime_seconds":0.71441192,"progress":"483.7KB/483.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.714396911,"progress":"31.9KB/31.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.246921277,"progress":"2.2KB/2.2KB"}],"total_operations":3}}
+{"time":"2025-07-31T00:10:12.777941091+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T00:10:14.39673059+03:00","level":"INFO","msg":"stream: closing","id":"64vi7gva"}
+{"time":"2025-07-31T00:10:14.396753524+03:00","level":"INFO","msg":"handler: closed","stream_id":"64vi7gva"}
+{"time":"2025-07-31T00:10:14.396768082+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"64vi7gva"}
+{"time":"2025-07-31T00:10:14.396774444+03:00","level":"INFO","msg":"sender: closed","stream_id":"64vi7gva"}
+{"time":"2025-07-31T00:10:14.396820363+03:00","level":"INFO","msg":"stream: closed","id":"64vi7gva"}

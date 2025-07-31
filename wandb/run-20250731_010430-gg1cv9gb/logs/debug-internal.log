@@ -1,0 +1,13 @@
+{"time":"2025-07-31T01:04:30.236618496+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T01:04:30.747140353+03:00","level":"INFO","msg":"stream: created new stream","id":"gg1cv9gb"}
+{"time":"2025-07-31T01:04:30.747173706+03:00","level":"INFO","msg":"stream: started","id":"gg1cv9gb"}
+{"time":"2025-07-31T01:04:30.74719685+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"gg1cv9gb"}
+{"time":"2025-07-31T01:04:30.747211056+03:00","level":"INFO","msg":"handler: started","stream_id":"gg1cv9gb"}
+{"time":"2025-07-31T01:04:30.747223921+03:00","level":"INFO","msg":"sender: started","stream_id":"gg1cv9gb"}
+{"time":"2025-07-31T01:04:51.942798521+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-15, summary","runtime_seconds":4.86077108},{"desc":"uploading model_path/transformer_genial-field-29.pt","runtime_seconds":0.633811913,"progress":"400.0KB/1.8MB"},{"desc":"uploading output.log","runtime_seconds":0.633799469},{"desc":"uploading wandb-summary.json","runtime_seconds":0.633795943,"progress":"168.4KB/168.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.122671931,"progress":"2.3KB/2.3KB"}],"total_operations":5}}
+{"time":"2025-07-31T01:05:00.233754366+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T01:05:02.28220526+03:00","level":"INFO","msg":"stream: closing","id":"gg1cv9gb"}
+{"time":"2025-07-31T01:05:02.282220378+03:00","level":"INFO","msg":"handler: closed","stream_id":"gg1cv9gb"}
+{"time":"2025-07-31T01:05:02.282229676+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gg1cv9gb"}
+{"time":"2025-07-31T01:05:02.282243812+03:00","level":"INFO","msg":"sender: closed","stream_id":"gg1cv9gb"}
+{"time":"2025-07-31T01:05:02.282286943+03:00","level":"INFO","msg":"stream: closed","id":"gg1cv9gb"}

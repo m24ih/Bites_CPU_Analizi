@@ -1,0 +1,12 @@
+{"time":"2025-07-30T00:26:25.44881584+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-30T00:26:25.818821974+03:00","level":"INFO","msg":"stream: created new stream","id":"etncl4pc"}
+{"time":"2025-07-30T00:26:25.818845017+03:00","level":"INFO","msg":"stream: started","id":"etncl4pc"}
+{"time":"2025-07-30T00:26:25.818863752+03:00","level":"INFO","msg":"sender: started","stream_id":"etncl4pc"}
+{"time":"2025-07-30T00:26:25.818863892+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"etncl4pc"}
+{"time":"2025-07-30T00:26:25.818881786+03:00","level":"INFO","msg":"handler: started","stream_id":"etncl4pc"}
+{"time":"2025-07-30T00:28:01.458427555+03:00","level":"INFO","msg":"stream: closing","id":"etncl4pc"}
+{"time":"2025-07-30T00:28:01.996757241+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-30T00:28:02.513594627+03:00","level":"INFO","msg":"handler: closed","stream_id":"etncl4pc"}
+{"time":"2025-07-30T00:28:02.513659909+03:00","level":"INFO","msg":"sender: closed","stream_id":"etncl4pc"}
+{"time":"2025-07-30T00:28:02.513643098+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"etncl4pc"}
+{"time":"2025-07-30T00:28:02.513768803+03:00","level":"INFO","msg":"stream: closed","id":"etncl4pc"}

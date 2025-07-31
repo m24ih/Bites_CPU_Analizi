@@ -1,0 +1,13 @@
+{"time":"2025-07-31T01:03:11.177132631+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T01:03:11.711722044+03:00","level":"INFO","msg":"stream: created new stream","id":"kd7efz8z"}
+{"time":"2025-07-31T01:03:11.711752431+03:00","level":"INFO","msg":"stream: started","id":"kd7efz8z"}
+{"time":"2025-07-31T01:03:11.71176781+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"kd7efz8z"}
+{"time":"2025-07-31T01:03:11.711792596+03:00","level":"INFO","msg":"sender: started","stream_id":"kd7efz8z"}
+{"time":"2025-07-31T01:03:11.711772498+03:00","level":"INFO","msg":"handler: started","stream_id":"kd7efz8z"}
+{"time":"2025-07-31T01:03:24.84679388+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model_path/transformer_serene-night-26.pt","runtime_seconds":0.733362372,"progress":"944.0KB/1.5MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.733348556,"progress":"90.7KB/90.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.319855352,"progress":"2.3KB/2.3KB"}],"total_operations":3}}
+{"time":"2025-07-31T01:03:30.908881626+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T01:03:35.149583282+03:00","level":"INFO","msg":"stream: closing","id":"kd7efz8z"}
+{"time":"2025-07-31T01:03:35.149594103+03:00","level":"INFO","msg":"handler: closed","stream_id":"kd7efz8z"}
+{"time":"2025-07-31T01:03:35.149601557+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kd7efz8z"}
+{"time":"2025-07-31T01:03:35.1496084+03:00","level":"INFO","msg":"sender: closed","stream_id":"kd7efz8z"}
+{"time":"2025-07-31T01:03:35.149642033+03:00","level":"INFO","msg":"stream: closed","id":"kd7efz8z"}

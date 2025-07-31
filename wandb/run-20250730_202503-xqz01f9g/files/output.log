@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/melih/Downloads/transformer-wandb.py", line 207, in <module>
+    train_transformer(full_config)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/melih/Downloads/transformer-wandb.py", line 127, in train_transformer
+    outputs = model(batch_x)
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+    return inner()
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1805, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/melih/Downloads/transformer-wandb.py", line 70, in forward
+    src = self.pos_encoder(src)
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/melih/Downloads/transformer-wandb.py", line 38, in forward
+    x = x + self.pe[:x.size(0)]
+        ~~^~~~~~~~~~~~~~~~~~~~~
+RuntimeError: The size of tensor a (64) must match the size of tensor b (50) at non-singleton dimension 0

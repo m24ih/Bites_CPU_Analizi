@@ -1,0 +1,17 @@
+{"time":"2025-07-29T16:15:35.294545545+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-29T16:15:35.67084685+03:00","level":"INFO","msg":"stream: created new stream","id":"pj0y14e7"}
+{"time":"2025-07-29T16:15:35.670885462+03:00","level":"INFO","msg":"stream: started","id":"pj0y14e7"}
+{"time":"2025-07-29T16:15:35.670912012+03:00","level":"INFO","msg":"handler: started","stream_id":"pj0y14e7"}
+{"time":"2025-07-29T16:15:35.670927772+03:00","level":"INFO","msg":"sender: started","stream_id":"pj0y14e7"}
+{"time":"2025-07-29T16:15:35.670909728+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"pj0y14e7"}
+{"time":"2025-07-29T16:15:35.861639895+03:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-07-29T16:15:35.861791319+03:00","level":"ERROR","msg":"runupserter: failed to init run","error":"returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}
+{"time":"2025-07-29T16:15:36.865025534+03:00","level":"INFO","msg":"stream: closing","id":"pj0y14e7"}
+{"time":"2025-07-29T16:15:36.865249043+03:00","level":"ERROR","msg":"sender: uploadConfigFile: stream: no run"}
+{"time":"2025-07-29T16:15:37.106974702+03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-07-29T16:15:37.107097753+03:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project my-awesome-team-name/my-awesome-project not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-07-29T16:15:37.107739987+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-29T16:15:37.107802364+03:00","level":"INFO","msg":"handler: closed","stream_id":"pj0y14e7"}
+{"time":"2025-07-29T16:15:37.107839874+03:00","level":"INFO","msg":"sender: closed","stream_id":"pj0y14e7"}
+{"time":"2025-07-29T16:15:37.107833512+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pj0y14e7"}
+{"time":"2025-07-29T16:15:37.10790191+03:00","level":"INFO","msg":"stream: closed","id":"pj0y14e7"}

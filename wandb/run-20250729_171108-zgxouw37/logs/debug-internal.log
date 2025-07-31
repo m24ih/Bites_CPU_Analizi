@@ -1,0 +1,13 @@
+{"time":"2025-07-29T17:11:08.949456749+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-29T17:11:09.314356131+03:00","level":"INFO","msg":"stream: created new stream","id":"zgxouw37"}
+{"time":"2025-07-29T17:11:09.314415342+03:00","level":"INFO","msg":"stream: started","id":"zgxouw37"}
+{"time":"2025-07-29T17:11:09.314434688+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"zgxouw37"}
+{"time":"2025-07-29T17:11:09.314485273+03:00","level":"INFO","msg":"handler: started","stream_id":"zgxouw37"}
+{"time":"2025-07-29T17:11:09.314466478+03:00","level":"INFO","msg":"sender: started","stream_id":"zgxouw37"}
+{"time":"2025-07-29T17:24:44.634286133+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/plotly/Hata Analizi Grafiği_0_36fb4519cd164e2325c1.plotly.json","runtime_seconds":0.533609203,"progress":"9.2KB/9.2KB"}],"total_operations":1}}
+{"time":"2025-07-29T17:24:44.658104242+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-29T17:24:45.041769705+03:00","level":"INFO","msg":"stream: closing","id":"zgxouw37"}
+{"time":"2025-07-29T17:24:45.041783732+03:00","level":"INFO","msg":"handler: closed","stream_id":"zgxouw37"}
+{"time":"2025-07-29T17:24:45.041791907+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zgxouw37"}
+{"time":"2025-07-29T17:24:45.041799792+03:00","level":"INFO","msg":"sender: closed","stream_id":"zgxouw37"}
+{"time":"2025-07-29T17:24:45.041832813+03:00","level":"INFO","msg":"stream: closed","id":"zgxouw37"}

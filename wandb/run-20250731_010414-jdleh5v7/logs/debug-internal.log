@@ -1,0 +1,13 @@
+{"time":"2025-07-31T01:04:14.75445471+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T01:04:15.390926092+03:00","level":"INFO","msg":"stream: created new stream","id":"jdleh5v7"}
+{"time":"2025-07-31T01:04:15.390960566+03:00","level":"INFO","msg":"stream: started","id":"jdleh5v7"}
+{"time":"2025-07-31T01:04:15.390975515+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"jdleh5v7"}
+{"time":"2025-07-31T01:04:15.390997536+03:00","level":"INFO","msg":"sender: started","stream_id":"jdleh5v7"}
+{"time":"2025-07-31T01:04:15.391004158+03:00","level":"INFO","msg":"handler: started","stream_id":"jdleh5v7"}
+{"time":"2025-07-31T01:04:24.146862828+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model_path/transformer_soft-aardvark-28.pt","runtime_seconds":0.728362126,"progress":"208.0KB/666.7KB"},{"desc":"uploading output.log","runtime_seconds":0.728350775},{"desc":"uploading wandb-summary.json","runtime_seconds":0.728347609,"progress":"51.1KB/51.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.442090699}],"total_operations":4}}
+{"time":"2025-07-31T01:04:27.41761325+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T01:04:30.22916619+03:00","level":"INFO","msg":"stream: closing","id":"jdleh5v7"}
+{"time":"2025-07-31T01:04:30.229183562+03:00","level":"INFO","msg":"handler: closed","stream_id":"jdleh5v7"}
+{"time":"2025-07-31T01:04:30.229194914+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jdleh5v7"}
+{"time":"2025-07-31T01:04:30.229201957+03:00","level":"INFO","msg":"sender: closed","stream_id":"jdleh5v7"}
+{"time":"2025-07-31T01:04:30.229288529+03:00","level":"INFO","msg":"stream: closed","id":"jdleh5v7"}

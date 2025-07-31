@@ -1,0 +1,13 @@
+{"time":"2025-07-31T00:54:10.432784476+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T00:54:10.959152248+03:00","level":"INFO","msg":"stream: created new stream","id":"prr2x8mb"}
+{"time":"2025-07-31T00:54:10.959186312+03:00","level":"INFO","msg":"stream: started","id":"prr2x8mb"}
+{"time":"2025-07-31T00:54:10.959200588+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"prr2x8mb"}
+{"time":"2025-07-31T00:54:10.959205648+03:00","level":"INFO","msg":"sender: started","stream_id":"prr2x8mb"}
+{"time":"2025-07-31T00:54:10.959240644+03:00","level":"INFO","msg":"handler: started","stream_id":"prr2x8mb"}
+{"time":"2025-07-31T00:54:28.084106528+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-18, summary","runtime_seconds":1.099239136},{"desc":"uploading model_path/transformer_lilac-deluge-12.pt","runtime_seconds":0.699180657,"progress":"640.0KB/4.0MB"},{"desc":"uploading output.log","runtime_seconds":0.699168765},{"desc":"uploading wandb-summary.json","runtime_seconds":0.699164847,"progress":"130.3KB/130.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.425089833,"progress":"2.3KB/2.3KB"}],"total_operations":5}}
+{"time":"2025-07-31T00:54:37.785590147+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T00:54:38.888959858+03:00","level":"INFO","msg":"stream: closing","id":"prr2x8mb"}
+{"time":"2025-07-31T00:54:38.888975798+03:00","level":"INFO","msg":"handler: closed","stream_id":"prr2x8mb"}
+{"time":"2025-07-31T00:54:38.888989013+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"prr2x8mb"}
+{"time":"2025-07-31T00:54:38.888999433+03:00","level":"INFO","msg":"sender: closed","stream_id":"prr2x8mb"}
+{"time":"2025-07-31T00:54:38.889061249+03:00","level":"INFO","msg":"stream: closed","id":"prr2x8mb"}

@@ -1,0 +1,12 @@
+/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/torch/nn/modules/rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.5 and num_layers=1
+  warnings.warn(
+Epoch 1/10 | Train Loss: 0.6925 | Val Loss: 0.6897 | Val Acc: 0.5050
+Epoch 2/10 | Train Loss: 0.6859 | Val Loss: 0.6883 | Val Acc: 0.4900
+Epoch 3/10 | Train Loss: 0.6792 | Val Loss: 0.6878 | Val Acc: 0.5050
+Epoch 4/10 | Train Loss: 0.6684 | Val Loss: 0.6870 | Val Acc: 0.5500
+Epoch 5/10 | Train Loss: 0.6526 | Val Loss: 0.6872 | Val Acc: 0.5400
+Epoch 6/10 | Train Loss: 0.6345 | Val Loss: 0.6712 | Val Acc: 0.5450
+Epoch 7/10 | Train Loss: 0.6200 | Val Loss: 0.6749 | Val Acc: 0.5450
+Epoch 8/10 | Train Loss: 0.6045 | Val Loss: 0.6963 | Val Acc: 0.5600
+Epoch 9/10 | Train Loss: 0.5827 | Val Loss: 0.7491 | Val Acc: 0.5400
+Epoch 10/10 | Train Loss: 0.5541 | Val Loss: 0.7346 | Val Acc: 0.5650

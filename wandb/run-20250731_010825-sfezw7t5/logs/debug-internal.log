@@ -1,0 +1,13 @@
+{"time":"2025-07-31T01:08:25.066874493+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T01:08:25.761851758+03:00","level":"INFO","msg":"stream: created new stream","id":"sfezw7t5"}
+{"time":"2025-07-31T01:08:25.761885993+03:00","level":"INFO","msg":"stream: started","id":"sfezw7t5"}
+{"time":"2025-07-31T01:08:25.761903696+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"sfezw7t5"}
+{"time":"2025-07-31T01:08:25.761928463+03:00","level":"INFO","msg":"sender: started","stream_id":"sfezw7t5"}
+{"time":"2025-07-31T01:08:25.761939163+03:00","level":"INFO","msg":"handler: started","stream_id":"sfezw7t5"}
+{"time":"2025-07-31T01:08:44.107798648+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-17, summary","runtime_seconds":1.994307263},{"desc":"uploading model_path/transformer_avid-armadillo-33.pt","runtime_seconds":0.183867178,"progress":"48.0KB/4.0MB"},{"desc":"uploading output.log","runtime_seconds":0.1838577},{"desc":"uploading wandb-summary.json","runtime_seconds":0.183855336,"progress":"112.0KB/130.6KB"}],"total_operations":4}}
+{"time":"2025-07-31T01:08:50.481563409+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T01:08:51.430836586+03:00","level":"INFO","msg":"stream: closing","id":"sfezw7t5"}
+{"time":"2025-07-31T01:08:51.430851464+03:00","level":"INFO","msg":"handler: closed","stream_id":"sfezw7t5"}
+{"time":"2025-07-31T01:08:51.430863927+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sfezw7t5"}
+{"time":"2025-07-31T01:08:51.430870529+03:00","level":"INFO","msg":"sender: closed","stream_id":"sfezw7t5"}
+{"time":"2025-07-31T01:08:51.430968684+03:00","level":"INFO","msg":"stream: closed","id":"sfezw7t5"}

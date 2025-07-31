@@ -1,0 +1,10 @@
+wandb_version: 1
+
+epochs:
+  value: 25
+hidden_layer_size:
+  value: 64
+learning_rate:
+  value: 0.00045368599143218136
+optimizer:
+  value: adam

@@ -1,0 +1,40 @@
+{
+  "os":  "Linux-6.15.7-3-cachyos-x86_64-with-glibc2.41",
+  "python":  "CPython 3.13.5",
+  "startedAt":  "2025-07-29T13:25:44.170199Z",
+  "program":  "/home/melih/Documents/Bites_CPU_Analizi/2_SARIMA_Modeli.ipynb",
+  "codePath":  "2_SARIMA_Modeli.ipynb",
+  "codePathLocal":  "2_SARIMA_Modeli.ipynb",
+  "git":  {
+    "remote":  "git@github.com:m24ih/Bites_CPU_Analizi.git",
+    "commit":  "ebea5488bf0aeb4d8d97a4896ffd27621333b6f9"
+  },
+  "email":  "melihak635442@gmail.com",
+  "root":  "/home/melih/Documents/Bites_CPU_Analizi",
+  "host":  "CachyOS",
+  "executable":  "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/bin/python",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "804232626176",
+      "used":  "353593036800"
+    }
+  },
+  "memory":  {
+    "total":  "41390157824"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal":  "8585740288",
+      "cudaCores":  3072,
+      "architecture":  "Ada",
+      "uuid":  "GPU-1fcb879c-ca2f-354a-24bb-c9dd6765cc0b"
+    }
+  ],
+  "cudaVersion":  "12.9",
+  "writerId":  "630h8yqvypyd5wtsjjw3fp68hu3x3b67"
+}

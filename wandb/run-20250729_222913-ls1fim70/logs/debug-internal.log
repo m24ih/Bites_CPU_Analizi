@@ -1,0 +1,13 @@
+{"time":"2025-07-29T22:29:13.831031905+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-29T22:29:14.207280293+03:00","level":"INFO","msg":"stream: created new stream","id":"ls1fim70"}
+{"time":"2025-07-29T22:29:14.207315719+03:00","level":"INFO","msg":"stream: started","id":"ls1fim70"}
+{"time":"2025-07-29T22:29:14.207332681+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ls1fim70"}
+{"time":"2025-07-29T22:29:14.20733256+03:00","level":"INFO","msg":"sender: started","stream_id":"ls1fim70"}
+{"time":"2025-07-29T22:29:14.207339814+03:00","level":"INFO","msg":"handler: started","stream_id":"ls1fim70"}
+{"time":"2025-07-29T22:30:15.176769299+03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/melihak635442-bites/Bites_CPU_Analizi/ls1fim70/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-07-29T22:30:51.826895861+03:00","level":"INFO","msg":"stream: closing","id":"ls1fim70"}
+{"time":"2025-07-29T22:30:52.418195043+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-29T22:30:52.979055298+03:00","level":"INFO","msg":"handler: closed","stream_id":"ls1fim70"}
+{"time":"2025-07-29T22:30:52.979092428+03:00","level":"INFO","msg":"sender: closed","stream_id":"ls1fim70"}
+{"time":"2025-07-29T22:30:52.979086426+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ls1fim70"}
+{"time":"2025-07-29T22:30:52.97914197+03:00","level":"INFO","msg":"stream: closed","id":"ls1fim70"}

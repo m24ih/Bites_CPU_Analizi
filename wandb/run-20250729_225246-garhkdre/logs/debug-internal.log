@@ -1,0 +1,12 @@
+{"time":"2025-07-29T22:52:46.741342126+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-29T22:52:47.160775951+03:00","level":"INFO","msg":"stream: created new stream","id":"garhkdre"}
+{"time":"2025-07-29T22:52:47.160831906+03:00","level":"INFO","msg":"stream: started","id":"garhkdre"}
+{"time":"2025-07-29T22:52:47.160877772+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"garhkdre"}
+{"time":"2025-07-29T22:52:47.160912417+03:00","level":"INFO","msg":"sender: started","stream_id":"garhkdre"}
+{"time":"2025-07-29T22:52:47.160979002+03:00","level":"INFO","msg":"handler: started","stream_id":"garhkdre"}
+{"time":"2025-07-29T22:54:24.716474705+03:00","level":"INFO","msg":"stream: closing","id":"garhkdre"}
+{"time":"2025-07-29T22:54:25.29439758+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-29T22:54:25.613523881+03:00","level":"INFO","msg":"handler: closed","stream_id":"garhkdre"}
+{"time":"2025-07-29T22:54:25.613557915+03:00","level":"INFO","msg":"sender: closed","stream_id":"garhkdre"}
+{"time":"2025-07-29T22:54:25.613550932+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"garhkdre"}
+{"time":"2025-07-29T22:54:25.613660628+03:00","level":"INFO","msg":"stream: closed","id":"garhkdre"}

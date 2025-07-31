@@ -1,0 +1,14 @@
+{"time":"2025-07-29T18:10:09.110667933+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-29T18:10:09.513200945+03:00","level":"INFO","msg":"stream: created new stream","id":"15xotq8p"}
+{"time":"2025-07-29T18:10:09.513240058+03:00","level":"INFO","msg":"stream: started","id":"15xotq8p"}
+{"time":"2025-07-29T18:10:09.513249295+03:00","level":"INFO","msg":"sender: started","stream_id":"15xotq8p"}
+{"time":"2025-07-29T18:10:09.51324654+03:00","level":"INFO","msg":"handler: started","stream_id":"15xotq8p"}
+{"time":"2025-07-29T18:10:09.513269844+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"15xotq8p"}
+{"time":"2025-07-29T18:11:25.362210074+03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/melihak635442-bites/bites-cpu-forecasting/15xotq8p/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-07-29T18:23:54.766543419+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.252736472,"progress":"2.1KB/2.1KB"}],"total_operations":1}}
+{"time":"2025-07-29T18:23:54.779303047+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-29T18:23:55.120834128+03:00","level":"INFO","msg":"stream: closing","id":"15xotq8p"}
+{"time":"2025-07-29T18:23:55.120849307+03:00","level":"INFO","msg":"handler: closed","stream_id":"15xotq8p"}
+{"time":"2025-07-29T18:23:55.120864335+03:00","level":"INFO","msg":"sender: closed","stream_id":"15xotq8p"}
+{"time":"2025-07-29T18:23:55.120859316+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"15xotq8p"}
+{"time":"2025-07-29T18:23:55.120929968+03:00","level":"INFO","msg":"stream: closed","id":"15xotq8p"}

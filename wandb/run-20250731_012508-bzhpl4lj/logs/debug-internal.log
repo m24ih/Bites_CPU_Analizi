@@ -1,0 +1,13 @@
+{"time":"2025-07-31T01:25:08.368714654+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T01:25:08.839104762+03:00","level":"INFO","msg":"stream: created new stream","id":"bzhpl4lj"}
+{"time":"2025-07-31T01:25:08.839143033+03:00","level":"INFO","msg":"stream: started","id":"bzhpl4lj"}
+{"time":"2025-07-31T01:25:08.839169032+03:00","level":"INFO","msg":"handler: started","stream_id":"bzhpl4lj"}
+{"time":"2025-07-31T01:25:08.839181375+03:00","level":"INFO","msg":"sender: started","stream_id":"bzhpl4lj"}
+{"time":"2025-07-31T01:25:08.839167499+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"bzhpl4lj"}
+{"time":"2025-07-31T01:25:10.355879276+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/plotly/Final Tahmin Grafiği_0_6ed420bf9932a503b5f4.plotly.json","runtime_seconds":0.27212453,"progress":"242.6KB/242.6KB"},{"desc":"uploading output.log","runtime_seconds":0.272112187},{"desc":"uploading wandb-summary.json","runtime_seconds":0.272110234,"progress":"751B/751B"}],"total_operations":3}}
+{"time":"2025-07-31T01:25:10.979470706+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T01:25:11.374128147+03:00","level":"INFO","msg":"stream: closing","id":"bzhpl4lj"}
+{"time":"2025-07-31T01:25:11.374143065+03:00","level":"INFO","msg":"handler: closed","stream_id":"bzhpl4lj"}
+{"time":"2025-07-31T01:25:11.374153825+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bzhpl4lj"}
+{"time":"2025-07-31T01:25:11.374162862+03:00","level":"INFO","msg":"sender: closed","stream_id":"bzhpl4lj"}
+{"time":"2025-07-31T01:25:11.374214518+03:00","level":"INFO","msg":"stream: closed","id":"bzhpl4lj"}

@@ -1,0 +1,14 @@
+{"time":"2025-07-31T01:06:21.461969636+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T01:06:22.02902548+03:00","level":"INFO","msg":"stream: created new stream","id":"ca3q8u5m"}
+{"time":"2025-07-31T01:06:22.029055185+03:00","level":"INFO","msg":"stream: started","id":"ca3q8u5m"}
+{"time":"2025-07-31T01:06:22.02908423+03:00","level":"INFO","msg":"sender: started","stream_id":"ca3q8u5m"}
+{"time":"2025-07-31T01:06:22.029098757+03:00","level":"INFO","msg":"handler: started","stream_id":"ca3q8u5m"}
+{"time":"2025-07-31T01:06:22.029083238+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ca3q8u5m"}
+{"time":"2025-07-31T01:06:40.089068935+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-17, summary","runtime_seconds":1.873212111},{"desc":"uploading wandb-summary.json","runtime_seconds":0.655182161,"progress":"130.8KB/130.8KB"},{"desc":"uploading model_path/transformer_royal-snow-31.pt","runtime_seconds":0.655180157,"progress":"448.0KB/4.0MB"},{"desc":"uploading config.yaml","runtime_seconds":0.328168846,"progress":"2.3KB/2.3KB"}],"total_operations":4}}
+{"time":"2025-07-31T01:07:40.14214501+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model_path/transformer_royal-snow-31.pt","runtime_seconds":17.242937644,"progress":"2.4MB/4.0MB"}],"total_operations":1}}
+{"time":"2025-07-31T01:08:04.250945046+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T01:08:05.086196281+03:00","level":"INFO","msg":"stream: closing","id":"ca3q8u5m"}
+{"time":"2025-07-31T01:08:05.086218022+03:00","level":"INFO","msg":"handler: closed","stream_id":"ca3q8u5m"}
+{"time":"2025-07-31T01:08:05.086232009+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ca3q8u5m"}
+{"time":"2025-07-31T01:08:05.086312219+03:00","level":"INFO","msg":"sender: closed","stream_id":"ca3q8u5m"}
+{"time":"2025-07-31T01:08:05.086347686+03:00","level":"INFO","msg":"stream: closed","id":"ca3q8u5m"}

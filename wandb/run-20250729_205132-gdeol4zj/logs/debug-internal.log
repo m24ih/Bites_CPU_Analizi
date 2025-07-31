@@ -1,0 +1,12 @@
+{"time":"2025-07-29T20:51:32.693996738+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-29T20:51:33.077807626+03:00","level":"INFO","msg":"stream: created new stream","id":"gdeol4zj"}
+{"time":"2025-07-29T20:51:33.077841399+03:00","level":"INFO","msg":"stream: started","id":"gdeol4zj"}
+{"time":"2025-07-29T20:51:33.077853081+03:00","level":"INFO","msg":"handler: started","stream_id":"gdeol4zj"}
+{"time":"2025-07-29T20:51:33.077860595+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"gdeol4zj"}
+{"time":"2025-07-29T20:51:33.077866686+03:00","level":"INFO","msg":"sender: started","stream_id":"gdeol4zj"}
+{"time":"2025-07-29T20:53:47.480224826+03:00","level":"INFO","msg":"stream: closing","id":"gdeol4zj"}
+{"time":"2025-07-29T20:53:48.025216289+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-29T20:53:48.393057764+03:00","level":"INFO","msg":"handler: closed","stream_id":"gdeol4zj"}
+{"time":"2025-07-29T20:53:48.393095123+03:00","level":"INFO","msg":"sender: closed","stream_id":"gdeol4zj"}
+{"time":"2025-07-29T20:53:48.393090274+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gdeol4zj"}
+{"time":"2025-07-29T20:53:48.393148093+03:00","level":"INFO","msg":"stream: closed","id":"gdeol4zj"}

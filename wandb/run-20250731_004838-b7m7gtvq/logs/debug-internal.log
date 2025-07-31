@@ -1,0 +1,13 @@
+{"time":"2025-07-31T00:48:38.271686544+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T00:48:38.754837219+03:00","level":"INFO","msg":"stream: created new stream","id":"b7m7gtvq"}
+{"time":"2025-07-31T00:48:38.754877805+03:00","level":"INFO","msg":"stream: started","id":"b7m7gtvq"}
+{"time":"2025-07-31T00:48:38.754889587+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"b7m7gtvq"}
+{"time":"2025-07-31T00:48:38.754902902+03:00","level":"INFO","msg":"sender: started","stream_id":"b7m7gtvq"}
+{"time":"2025-07-31T00:48:38.754913582+03:00","level":"INFO","msg":"handler: started","stream_id":"b7m7gtvq"}
+{"time":"2025-07-31T00:48:57.087875042+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-17","runtime_seconds":2.045297497},{"desc":"uploading model_path/transformer_proud-morning-6.pt","runtime_seconds":0.119645317,"progress":"64.0KB/4.0MB"},{"desc":"uploading output.log","runtime_seconds":0.119635268},{"desc":"uploading wandb-summary.json","runtime_seconds":0.119632513,"progress":"96.0KB/130.5KB"}],"total_operations":4}}
+{"time":"2025-07-31T00:49:08.225543913+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T00:49:09.473697584+03:00","level":"INFO","msg":"stream: closing","id":"b7m7gtvq"}
+{"time":"2025-07-31T00:49:09.473713303+03:00","level":"INFO","msg":"handler: closed","stream_id":"b7m7gtvq"}
+{"time":"2025-07-31T00:49:09.473724224+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b7m7gtvq"}
+{"time":"2025-07-31T00:49:09.47373287+03:00","level":"INFO","msg":"sender: closed","stream_id":"b7m7gtvq"}
+{"time":"2025-07-31T00:49:09.473788474+03:00","level":"INFO","msg":"stream: closed","id":"b7m7gtvq"}

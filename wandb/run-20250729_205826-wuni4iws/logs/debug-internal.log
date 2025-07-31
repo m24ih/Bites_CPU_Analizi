@@ -1,0 +1,12 @@
+{"time":"2025-07-29T20:58:26.501720979+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-29T20:58:26.870917242+03:00","level":"INFO","msg":"stream: created new stream","id":"wuni4iws"}
+{"time":"2025-07-29T20:58:26.870960473+03:00","level":"INFO","msg":"stream: started","id":"wuni4iws"}
+{"time":"2025-07-29T20:58:26.870975652+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"wuni4iws"}
+{"time":"2025-07-29T20:58:26.870983196+03:00","level":"INFO","msg":"handler: started","stream_id":"wuni4iws"}
+{"time":"2025-07-29T20:58:26.870987183+03:00","level":"INFO","msg":"sender: started","stream_id":"wuni4iws"}
+{"time":"2025-07-29T21:00:33.426353931+03:00","level":"INFO","msg":"stream: closing","id":"wuni4iws"}
+{"time":"2025-07-29T21:00:33.962414409+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-29T21:00:34.345258862+03:00","level":"INFO","msg":"handler: closed","stream_id":"wuni4iws"}
+{"time":"2025-07-29T21:00:34.345283548+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wuni4iws"}
+{"time":"2025-07-29T21:00:34.345295+03:00","level":"INFO","msg":"sender: closed","stream_id":"wuni4iws"}
+{"time":"2025-07-29T21:00:34.345329234+03:00","level":"INFO","msg":"stream: closed","id":"wuni4iws"}

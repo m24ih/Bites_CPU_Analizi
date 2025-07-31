@@ -1,0 +1,13 @@
+{"time":"2025-07-31T00:35:58.549562935+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T00:35:59.063218788+03:00","level":"INFO","msg":"stream: created new stream","id":"sfikyspd"}
+{"time":"2025-07-31T00:35:59.063257058+03:00","level":"INFO","msg":"stream: started","id":"sfikyspd"}
+{"time":"2025-07-31T00:35:59.063270082+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"sfikyspd"}
+{"time":"2025-07-31T00:35:59.063302943+03:00","level":"INFO","msg":"handler: started","stream_id":"sfikyspd"}
+{"time":"2025-07-31T00:35:59.063275873+03:00","level":"INFO","msg":"sender: started","stream_id":"sfikyspd"}
+{"time":"2025-07-31T00:36:05.559838116+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.701112885,"progress":"32.0KB/32.0KB"},{"desc":"uploading model_path/lstm_LSTM_h100_l2.pt","runtime_seconds":0.701097446,"progress":"480.0KB/483.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.175848365}],"total_operations":3}}
+{"time":"2025-07-31T00:36:08.487523838+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T00:36:10.821264212+03:00","level":"INFO","msg":"stream: closing","id":"sfikyspd"}
+{"time":"2025-07-31T00:36:10.821285752+03:00","level":"INFO","msg":"handler: closed","stream_id":"sfikyspd"}
+{"time":"2025-07-31T00:36:10.821297463+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sfikyspd"}
+{"time":"2025-07-31T00:36:10.8213068+03:00","level":"INFO","msg":"sender: closed","stream_id":"sfikyspd"}
+{"time":"2025-07-31T00:36:10.821347125+03:00","level":"INFO","msg":"stream: closed","id":"sfikyspd"}

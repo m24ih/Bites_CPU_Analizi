@@ -1,0 +1,12 @@
+{"time":"2025-07-29T23:02:41.605450336+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-29T23:02:41.992315656+03:00","level":"INFO","msg":"stream: created new stream","id":"09rneill"}
+{"time":"2025-07-29T23:02:41.99237601+03:00","level":"INFO","msg":"stream: started","id":"09rneill"}
+{"time":"2025-07-29T23:02:41.992432125+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"09rneill"}
+{"time":"2025-07-29T23:02:41.992484793+03:00","level":"INFO","msg":"sender: started","stream_id":"09rneill"}
+{"time":"2025-07-29T23:02:41.992503619+03:00","level":"INFO","msg":"handler: started","stream_id":"09rneill"}
+{"time":"2025-07-29T23:03:59.787948793+03:00","level":"INFO","msg":"stream: closing","id":"09rneill"}
+{"time":"2025-07-29T23:04:00.372861718+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-29T23:04:00.723979072+03:00","level":"INFO","msg":"handler: closed","stream_id":"09rneill"}
+{"time":"2025-07-29T23:04:00.724024888+03:00","level":"INFO","msg":"sender: closed","stream_id":"09rneill"}
+{"time":"2025-07-29T23:04:00.724018106+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"09rneill"}
+{"time":"2025-07-29T23:04:00.724091082+03:00","level":"INFO","msg":"stream: closed","id":"09rneill"}

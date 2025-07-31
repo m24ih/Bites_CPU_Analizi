@@ -1,0 +1,12 @@
+{"time":"2025-07-30T01:42:37.400914783+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-30T01:42:37.793167181+03:00","level":"INFO","msg":"stream: created new stream","id":"nh59rpgr"}
+{"time":"2025-07-30T01:42:37.7932145+03:00","level":"INFO","msg":"stream: started","id":"nh59rpgr"}
+{"time":"2025-07-30T01:42:37.793248403+03:00","level":"INFO","msg":"sender: started","stream_id":"nh59rpgr"}
+{"time":"2025-07-30T01:42:37.793248203+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"nh59rpgr"}
+{"time":"2025-07-30T01:42:37.793276556+03:00","level":"INFO","msg":"handler: started","stream_id":"nh59rpgr"}
+{"time":"2025-07-30T01:44:43.286336985+03:00","level":"INFO","msg":"stream: closing","id":"nh59rpgr"}
+{"time":"2025-07-30T01:44:43.872964994+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-30T01:44:44.200894331+03:00","level":"INFO","msg":"handler: closed","stream_id":"nh59rpgr"}
+{"time":"2025-07-30T01:44:44.200976554+03:00","level":"INFO","msg":"sender: closed","stream_id":"nh59rpgr"}
+{"time":"2025-07-30T01:44:44.200964802+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nh59rpgr"}
+{"time":"2025-07-30T01:44:44.201058257+03:00","level":"INFO","msg":"stream: closed","id":"nh59rpgr"}

@@ -1,0 +1,77 @@
+2025-07-31 00:51:23,786 INFO    MainThread:17038 [wandb_setup.py:_flush():80] Current SDK version is 0.21.0
+2025-07-31 00:51:23,787 INFO    MainThread:17038 [wandb_setup.py:_flush():80] Configure stats pid to 17038
+2025-07-31 00:51:23,787 INFO    MainThread:17038 [wandb_setup.py:_flush():80] Loading settings from /home/melih/.config/wandb/settings
+2025-07-31 00:51:23,787 INFO    MainThread:17038 [wandb_setup.py:_flush():80] Loading settings from /home/melih/Documents/Bites_CPU_Analizi/wandb/settings
+2025-07-31 00:51:23,787 INFO    MainThread:17038 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-07-31 00:51:23,787 INFO    MainThread:17038 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /home/melih/Documents/Bites_CPU_Analizi/wandb/run-20250731_005123-6o9e0t55/logs/debug.log
+2025-07-31 00:51:23,787 INFO    MainThread:17038 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /home/melih/Documents/Bites_CPU_Analizi/wandb/run-20250731_005123-6o9e0t55/logs/debug-internal.log
+2025-07-31 00:51:23,787 INFO    MainThread:17038 [wandb_init.py:monkeypatch_ipython():622] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f4058462660>
+2025-07-31 00:51:23,787 INFO    MainThread:17038 [wandb_init.py:init():830] calling init triggers
+2025-07-31 00:51:23,787 INFO    MainThread:17038 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'batch_size': 64, 'epochs': 20, 'hidden_dim': 50, 'num_layers': 1, 'dropout': 0.1, 'lr': 0.001, '_wandb': {}}
+2025-07-31 00:51:23,787 INFO    MainThread:17038 [wandb_init.py:init():871] starting backend
+2025-07-31 00:51:23,991 INFO    MainThread:17038 [wandb_init.py:init():874] sending inform_init request
+2025-07-31 00:51:23,993 INFO    MainThread:17038 [wandb_init.py:init():882] backend started and connected
+2025-07-31 00:51:23,994 INFO    MainThread:17038 [wandb_run.py:_label_probe_notebook():1304] probe notebook
+2025-07-31 00:51:23,995 INFO    MainThread:17038 [wandb_init.py:init():953] updated telemetry
+2025-07-31 00:51:23,998 INFO    MainThread:17038 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-07-31 00:51:24,884 INFO    MainThread:17038 [wandb_init.py:init():1029] starting run threads in backend
+2025-07-31 00:51:24,942 INFO    MainThread:17038 [wandb_run.py:_console_start():2458] atexit reg
+2025-07-31 00:51:24,942 INFO    MainThread:17038 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-07-31 00:51:24,942 INFO    MainThread:17038 [wandb_run.py:_redirect():2375] Wrapping output streams.
+2025-07-31 00:51:24,942 INFO    MainThread:17038 [wandb_run.py:_redirect():2398] Redirects installed.
+2025-07-31 00:51:24,943 INFO    MainThread:17038 [wandb_init.py:init():1075] run started, returning control to user process
+2025-07-31 00:51:25,661 INFO    MainThread:17038 [wandb_watch.py:_watch():70] Watching
+2025-07-31 00:51:29,973 INFO    MainThread:17038 [wandb_run.py:_finish():2224] finishing run melihak635442-bites/bites-cpu-forecasting/6o9e0t55
+2025-07-31 00:51:30,016 INFO    MainThread:17038 [jupyter.py:save_history():480] not saving jupyter history
+2025-07-31 00:51:30,016 INFO    MainThread:17038 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-07-31 00:51:30,016 INFO    MainThread:17038 [wandb_init.py:_jupyter_teardown():607] cleaning up jupyter logic
+2025-07-31 00:51:30,017 INFO    MainThread:17038 [wandb_run.py:_atexit_cleanup():2423] got exitcode: 0
+2025-07-31 00:51:30,017 INFO    MainThread:17038 [wandb_run.py:_restore():2405] restore
+2025-07-31 00:51:30,017 INFO    MainThread:17038 [wandb_run.py:_restore():2411] restore done
+2025-07-31 00:51:32,778 WARNING MsgRouterThr:17038 [router.py:message_loop():63] [no run ID] message_loop has been closed
+Traceback (most recent call last):
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/wandb/sdk/interface/router_sock.py", line 27, in _read_message
+    return self._sock_client.read_server_response(timeout=1)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 231, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 216, in _read_packet_bytes
+    raise SockClientClosedError
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/wandb/sdk/interface/router.py", line 56, in message_loop
+    msg = self._read_message()
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/wandb/sdk/interface/router_sock.py", line 29, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-07-31 00:51:32,783 INFO    MsgRouterThr:17038 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 2 handles.
+2025-07-31 00:51:36,725 ERROR   MainThread:17038 [wandb_init.py:init():1616] [no run ID] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1606, in init
+    return wi.init(run_settings, run_config, run_printer)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 875, in init
+    service.inform_init(
+    ~~~~~~~~~~~~~~~~~~~^
+        settings=settings.to_proto(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        run_id=settings.run_id,  # type: ignore
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/wandb/sdk/lib/service/service_connection.py", line 111, in inform_init
+    self._client.send_server_request(spb.ServerRequest(inform_init=request))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 150, in send_server_request
+    self._send_message(msg)
+    ~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 147, in _send_message
+    self._sendall_with_error_handle(header + data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/lib/python3.13/site-packages/wandb/sdk/lib/sock_client.py", line 126, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe

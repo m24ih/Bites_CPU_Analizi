@@ -1,0 +1,68 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            xpo6e41kfesgk59feqlc6uw94zjaa2pd:
+                args:
+                    - --epochs=20
+                    - --hidden_layer_size=50
+                    - --learning_rate=0.01
+                    - --optimizer=rmsprop
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.9"
+                disk:
+                    /:
+                        total: "804232626176"
+                        used: "353677225984"
+                email: melihak635442@gmail.com
+                executable: /home/melih/Documents/Bites_CPU_Analizi/bites_cpu_venv/bin/python
+                git:
+                    commit: ebea5488bf0aeb4d8d97a4896ffd27621333b6f9
+                    remote: git@github.com:m24ih/Bites_CPU_Analizi.git
+                gpu: NVIDIA GeForce RTX 4060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 3072
+                      memoryTotal: "8585740288"
+                      name: NVIDIA GeForce RTX 4060 Laptop GPU
+                      uuid: GPU-1fcb879c-ca2f-354a-24bb-c9dd6765cc0b
+                host: CachyOS
+                memory:
+                    total: "41390157824"
+                os: Linux-6.15.7-3-cachyos-x86_64-with-glibc2.41
+                program: /home/melih/Documents/Bites_CPU_Analizi/train.py
+                python: CPython 3.13.5
+                root: /home/melih/Documents/Bites_CPU_Analizi
+                startedAt: "2025-07-29T21:15:52.524970Z"
+                writerId: xpo6e41kfesgk59feqlc6uw94zjaa2pd
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+                - 105
+            "2":
+                - 1
+                - 5
+                - 53
+                - 105
+            "3":
+                - 14
+            "4": 3.13.5
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": linux-x86_64
+epochs:
+    value: 20
+hidden_layer_size:
+    value: 50
+learning_rate:
+    value: 0.01
+optimizer:
+    value: rmsprop

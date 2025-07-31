@@ -1,0 +1,13 @@
+{"time":"2025-07-29T16:50:38.466072789+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-29T16:50:38.846747138+03:00","level":"INFO","msg":"stream: created new stream","id":"m90satc6"}
+{"time":"2025-07-29T16:50:38.846782885+03:00","level":"INFO","msg":"stream: started","id":"m90satc6"}
+{"time":"2025-07-29T16:50:38.846813843+03:00","level":"INFO","msg":"handler: started","stream_id":"m90satc6"}
+{"time":"2025-07-29T16:50:38.846819714+03:00","level":"INFO","msg":"sender: started","stream_id":"m90satc6"}
+{"time":"2025-07-29T16:50:38.846820355+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"m90satc6"}
+{"time":"2025-07-29T17:11:08.558149574+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-29T17:11:08.740321074+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary, console lines 2-3","runtime_seconds":0.182040104}],"total_operations":1}}
+{"time":"2025-07-29T17:11:08.939947959+03:00","level":"INFO","msg":"stream: closing","id":"m90satc6"}
+{"time":"2025-07-29T17:11:08.939956665+03:00","level":"INFO","msg":"handler: closed","stream_id":"m90satc6"}
+{"time":"2025-07-29T17:11:08.939963568+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m90satc6"}
+{"time":"2025-07-29T17:11:08.939971173+03:00","level":"INFO","msg":"sender: closed","stream_id":"m90satc6"}
+{"time":"2025-07-29T17:11:08.940005166+03:00","level":"INFO","msg":"stream: closed","id":"m90satc6"}
