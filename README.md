@@ -53,6 +53,14 @@ Proje, yönetimi kolaylaştırmak için modüler bir klasör yapısına sahiptir
 
 ---
 
+## 🚀 Canlı Demo (Live Demo)
+
+Projeyi yerel olarak kurmak yerine, aşağıdaki link üzerinden canlı olarak test edebilirsiniz:
+
+### 👉 [https://bites-staj.melihak.me](https://bites-staj.melihak.me)
+
+---
+
 ## 🛠️ Kurulum ve Çalıştırma (Docker ile)
 
 Bu proje, tüm bağımlılıklarıyla birlikte bir Docker konteyneri içinde çalışacak şekilde tasarlanmıştır. Projeyi çalıştırmak için bilgisayarınızda **Git** ve **Docker Desktop**'ın kurulu olması yeterlidir.
