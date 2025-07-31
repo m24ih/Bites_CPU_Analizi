@@ -1,0 +1,19 @@
+# Sanal ortam klasörünü yoksay
+bites_cpu_venv/
+
+# Büyük veri dosyalarını içeren klasörü yoksay
+data/
+
+# Jupyter Notebook'ların geçici dosyalarını yoksay
+.ipynb_checkpoints/
+
+# Python'un derlenmiş dosyalarını yoksay
+__pycache__/
+*.pyc
+
+# Git klasörünü yoksay
+.git
+
+# Docker dosyasının kendisini yoksay
+Dockerfile
+.dockerignore

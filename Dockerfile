@@ -1,24 +1,20 @@
-# Adım 1: Temel imajı belirle
-FROM nvidia/cuda:12.2.0-base-ubuntu22.04
+# Temel imaj olarak Python 3.10 kullanıyoruz.
+FROM python:3.10-slim
 
-# Adım 2: Gerekli sistem paketlerini kur
-ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install -y \
-    python3 \
-    python3-pip \
-    && rm -rf /var/lib/apt/lists/*
-
-# Adım 3: Çalışma dizinini ayarla
+# Konteyner içinde çalışacağımız klasörü oluşturuyoruz.
 WORKDIR /app
 
-# Adım 4: ÖNCE SADECE requirements.txt dosyasını kopyala
+# Önce sadece requirements.txt dosyasını kopyalıyoruz (önbellekleme için).
 COPY requirements.txt .
 
-# Adım 5: Kütüphaneleri kur
-RUN pip3 install --no-cache-dir -r requirements.txt
+# Gerekli tüm kütüphaneleri kuruyoruz.
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Adım 6: SON OLARAK projenin geri kalan tüm dosyalarını kopyala
+# Projenin geri kalan tüm dosyalarını (app.py, data/, models/ vb.) kopyalıyoruz.
 COPY . .
 
-# Adım 7: Varsayılan komutu ayarla
-CMD ["bash"]
+# Streamlit'in çalışacağı 8501 portunu dış dünyaya açıyoruz.
+EXPOSE 8501
+
+# Konteyner çalıştığında Streamlit uygulamasını başlatacak komutu ayarlıyoruz.
+CMD ["streamlit", "run", "4_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
