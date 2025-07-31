@@ -1,0 +1,13 @@
+{"time":"2025-07-31T14:29:38.732974692+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T14:29:39.337952509+03:00","level":"INFO","msg":"stream: created new stream","id":"idxopc5n"}
+{"time":"2025-07-31T14:29:39.338033444+03:00","level":"INFO","msg":"stream: started","id":"idxopc5n"}
+{"time":"2025-07-31T14:29:39.338041148+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"idxopc5n"}
+{"time":"2025-07-31T14:29:39.338088773+03:00","level":"INFO","msg":"handler: started","stream_id":"idxopc5n"}
+{"time":"2025-07-31T14:29:39.338084786+03:00","level":"INFO","msg":"sender: started","stream_id":"idxopc5n"}
+{"time":"2025-07-31T14:31:26.618558569+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-idxopc5n-conf_mat_table","runtime_seconds":1.5868086049999999},{"desc":"uploading config.yaml","runtime_seconds":0.331293379,"progress":"3.3KB/3.3KB"}],"total_operations":2}}
+{"time":"2025-07-31T14:31:27.797046993+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T14:31:28.253004927+03:00","level":"INFO","msg":"stream: closing","id":"idxopc5n"}
+{"time":"2025-07-31T14:31:28.253018089+03:00","level":"INFO","msg":"handler: closed","stream_id":"idxopc5n"}
+{"time":"2025-07-31T14:31:28.253030519+03:00","level":"INFO","msg":"sender: closed","stream_id":"idxopc5n"}
+{"time":"2025-07-31T14:31:28.253025156+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"idxopc5n"}
+{"time":"2025-07-31T14:31:28.253072209+03:00","level":"INFO","msg":"stream: closed","id":"idxopc5n"}

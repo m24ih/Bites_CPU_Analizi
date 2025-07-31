@@ -1,0 +1,13 @@
+{"time":"2025-07-31T14:18:50.146050581+03:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T14:18:50.703752509+03:00","level":"INFO","msg":"stream: created new stream","id":"m7dzm84t"}
+{"time":"2025-07-31T14:18:50.703786661+03:00","level":"INFO","msg":"stream: started","id":"m7dzm84t"}
+{"time":"2025-07-31T14:18:50.703806717+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"m7dzm84t"}
+{"time":"2025-07-31T14:18:50.703812567+03:00","level":"INFO","msg":"handler: started","stream_id":"m7dzm84t"}
+{"time":"2025-07-31T14:18:50.703827094+03:00","level":"INFO","msg":"sender: started","stream_id":"m7dzm84t"}
+{"time":"2025-07-31T14:22:24.459895349+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-m7dzm84t-conf_mat_table","runtime_seconds":2.118008534}],"total_operations":1}}
+{"time":"2025-07-31T14:22:25.256814601+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T14:22:25.94998146+03:00","level":"INFO","msg":"stream: closing","id":"m7dzm84t"}
+{"time":"2025-07-31T14:22:25.950005022+03:00","level":"INFO","msg":"handler: closed","stream_id":"m7dzm84t"}
+{"time":"2025-07-31T14:22:25.950016863+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m7dzm84t"}
+{"time":"2025-07-31T14:22:25.950025208+03:00","level":"INFO","msg":"sender: closed","stream_id":"m7dzm84t"}
+{"time":"2025-07-31T14:22:25.950088181+03:00","level":"INFO","msg":"stream: closed","id":"m7dzm84t"}

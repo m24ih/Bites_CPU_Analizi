@@ -1,0 +1,5 @@
+2025-07-31 13:58:23,983 INFO    MainThread:4526 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /home/melih/Documents/Bites_CPU_Analizi/wandb/run-20250731_135823-8baw5l06/logs/debug.log
+2025-07-31 13:58:23,983 INFO    MainThread:4526 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /home/melih/Documents/Bites_CPU_Analizi/wandb/run-20250731_135823-8baw5l06/logs/debug-internal.log
+2025-07-31 13:58:23,983 INFO    MainThread:4526 [wandb_init.py:init():830] calling init triggers
+2025-07-31 13:58:23,983 INFO    MainThread:4526 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'architecture': 'SARIMA', 'optimizer': 'auto_arima', 'seasonal_period': 48, 'epochs': 1, 'target_column': 'avg_min_cpu', '_wandb': {}}
