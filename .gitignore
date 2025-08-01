@@ -1,2 +1,5 @@
+# Sanal ortam klasörünü yoksay
 bites_cpu_venv/
+
+# Büyük veri dosyalarını içeren klasörü yoksay
 data/

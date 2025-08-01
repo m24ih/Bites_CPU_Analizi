@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import os
 
 print("Anormallik tespiti için örnek veri seti oluşturuluyor...")
 
@@ -12,7 +11,6 @@ interval_seconds = 300
 
 # --- Zaman Damgalarını Oluşturma ---
 # 0'dan başlayarak belirtilen aralıkla artan bir sayı dizisi oluştur
-# Örnek: 0, 300, 600, 900, ...
 timestamps = np.arange(0, num_records * interval_seconds, interval_seconds)
 
 # --- Normal CPU Verilerini Oluşturma ---
@@ -29,7 +27,7 @@ df = pd.DataFrame({
 })
 
 # --- Bilerek Birkaç Anormallik Ekleme (Yüksek CPU Kullanımı) ---
-# Rastgele 15 adet veri noktasını anormallik olarak işaretle
+# Rastgele 30 adet veri noktasını anormallik olarak işaretle
 anomaly_indices = np.random.choice(df.index, size=30, replace=False)
 for idx in anomaly_indices:
     df.loc[idx, 'avg_cpu'] = np.random.uniform(92, 99)

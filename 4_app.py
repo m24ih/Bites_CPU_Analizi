@@ -18,6 +18,9 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score, m
 # --- Tahmin Modeli (LSTM) Mimarisi ---
 class LSTMModel(nn.Module):
     def __init__(self, input_size=3, hidden_layer_size=100, num_layers=2, dropout=0.2, output_size=3):
+        """
+        Belirtilen hiperparametrelerle modelin katmanlarını (LSTM ve Linear) tanımlar ve başlatır.
+        """
         super().__init__()
         self.lstm = nn.LSTM(
             input_size=input_size, hidden_size=hidden_layer_size,
@@ -26,6 +29,9 @@ class LSTMModel(nn.Module):
         self.linear = nn.Linear(hidden_layer_size, output_size)
 
     def forward(self, input_seq):
+        """
+        Girdi dizisini LSTM katmanından geçirir ve son zaman adımının çıktısını kullanarak nihai tahmini üretir.
+        """
         lstm_out, _ = self.lstm(input_seq)
         predictions = self.linear(lstm_out[:, -1, :])
         return predictions
@@ -33,6 +39,9 @@ class LSTMModel(nn.Module):
 # --- Transformer için Konumsal Kodlama (Positional Encoding) ---
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model, dropout=0.1, max_len=5000):
+        """
+        Modelin pozisyon bilgisini anlaması için sinüs/kosinüs kodlama matrisini oluşturur ve bir dropout katmanı başlatır.
+        """
         super(PositionalEncoding, self).__init__()
         self.dropout = nn.Dropout(p=dropout)
         pe = torch.zeros(max_len, d_model)
@@ -44,23 +53,30 @@ class PositionalEncoding(nn.Module):
         self.register_buffer('pe', pe)
 
     def forward(self, x):
+        """
+        Girdi tensörüne pozisyonel kodlama değerlerini ekler ve ardından ezberlemeyi önlemek için dropout uygular.
+        """
         x = x + self.pe[:x.size(0), :]
         return self.dropout(x)
 
 # --- Tahmin Modeli (Transformer) Mimarisi ---
 class TransformerModel(nn.Module):
-    # GÜNCELLENDİ: 'dim_feedforward' parametresi eklendi
     def __init__(self, input_size=3, d_model=64, nhead=4, num_encoder_layers=2, dim_feedforward=128, dropout=0.1, output_size=3):
+        """
+        Belirtilen hiperparametrelerle Transformer modelinin katmanlarını (girdi, pozisyonel kodlama, enkoder ve çıktı) tanımlar.
+        """
         super(TransformerModel, self).__init__()
         self.d_model = d_model
         self.encoder = nn.Linear(input_size, d_model)
         self.pos_encoder = PositionalEncoding(d_model, dropout)
-        # GÜNCELLENDİ: 'dim_feedforward' Transformer katmanına iletildi
         encoder_layers = nn.TransformerEncoderLayer(d_model=d_model, nhead=nhead, dim_feedforward=dim_feedforward, dropout=dropout, batch_first=True)
         self.transformer_encoder = nn.TransformerEncoder(encoder_layer=encoder_layers, num_layers=num_encoder_layers)
         self.decoder = nn.Linear(d_model, output_size)
 
     def forward(self, src):
+        """
+        Girdi dizisini model katmanlarından geçirir ve son zaman adımının çıktısını kullanarak nihai tahmini üretir.
+        """
         src = self.encoder(src) * math.sqrt(self.d_model)
         src = src.permute(1, 0, 2)
         src = self.pos_encoder(src)
@@ -72,6 +88,9 @@ class TransformerModel(nn.Module):
 # --- Modelleri ve Veriyi Yüklemek için Fonksiyonlar ---
 @st.cache_resource
 def load_forecasting_model(model_path, config):
+    """
+    Belirtilen yoldan eğitilmiş bir LSTM modelinin ağırlıklarını yükler ve modeli değerlendirme modunda döndürür.
+    """
     device = torch.device('cpu')
     model = LSTMModel(
         hidden_layer_size=config['hidden_dim'], num_layers=config['num_layers'],
@@ -86,8 +105,10 @@ def load_forecasting_model(model_path, config):
 
 @st.cache_resource
 def load_transformer_model(model_path, config):
+    """
+    Belirtilen yoldan eğitilmiş bir Transformer modelinin ağırlıklarını yükler ve modeli değerlendirme modunda döndürür.
+    """
     device = torch.device('cpu')
-    # GÜNCELLENDİ: Yeni 'dim_feedforward' parametresi config'den alınıp modele veriliyor
     model = TransformerModel(
         d_model=config['d_model'], nhead=config['nhead'],
         num_encoder_layers=config['num_encoder_layers'],
@@ -103,6 +124,9 @@ def load_transformer_model(model_path, config):
 
 @st.cache_resource
 def load_detection_model(model_path):
+    """
+    Belirtilen yoldan 'joblib' ile kaydedilmiş bir anormallik tespit modelini (örn: Random Forest) yükler.
+    """
     try:
         model = joblib.load(model_path)
         return model
@@ -111,6 +135,10 @@ def load_detection_model(model_path):
 
 @st.cache_data
 def load_data(file_source):
+    """
+    Verilen bir kaynaktan CSV verisini yükler, sütunları yeniden adlandırır, 
+    gerekli kontrolleri yapar ve zaman damgasını index olarak ayarlar.
+    """
     try:
         df = pd.read_csv(file_source)
         rename_map = {'avg_min_cpu': 'min_cpu', 'avg_max_cpu': 'max_cpu', 'avg_avg_cpu': 'avg_cpu'}
@@ -136,6 +164,9 @@ def load_data(file_source):
         return None
     
 def create_sequences(data, lookback_window):
+    """
+    Bir zaman serisi dizisini, modelin anlayacağı girdi (X) ve hedef (y) dizileri haline getirir.
+    """
     X, y = [], []
     for i in range(len(data) - lookback_window):
         feature = data[i:(i + lookback_window)]
@@ -174,6 +205,9 @@ elif page == "Zaman Serisi Tahmini":
 
     # Ortak tahmin ve görselleştirme fonksiyonu
     def run_prediction_pipeline(model, df, model_name):
+        """
+        Verilen bir model ve veri seti ile tahminler oluşturur, sonuçları Streamlit arayüzünde bir grafik ve performans metrikleri olarak görselleştirir.
+        """
         with st.spinner(f"{model_name} modeli ile tahminler ve metrikler hesaplanıyor..."):
             target_columns = ['min_cpu', 'max_cpu', 'avg_cpu']
             ts_data = df[target_columns].values
@@ -243,7 +277,6 @@ elif page == "Zaman Serisi Tahmini":
 
     with transformer_tab:
         st.subheader("Transformer Modeli ile Tahmin")
-        # GÜNCELLENDİ: Hata mesajına uygun olarak 'dim_feedforward' eklendi
         transformer_config = {
             'd_model': 64,
             'nhead': 4,
@@ -256,7 +289,6 @@ elif page == "Zaman Serisi Tahmini":
 
         transformer_model = load_transformer_model(TRANSFORMER_PATH, transformer_config)
         st.divider()
-        # st.warning("**Not:** Bu sekmenin çalışması için `model_path/transformer_model.pt` konumunda **eğitilmiş bir Transformer model dosyası** bulunmalıdır.")
         st.info("Analiz ve tahmin için bir CSV dosyası yükleyebilir veya varsayılan veri setini kullanabilirsiniz.")
         uploaded_file_transformer = st.file_uploader("Transformer için CSV yükle", type=['csv'], key="transformer_uploader")
 
